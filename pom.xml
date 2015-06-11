@@ -120,6 +120,17 @@
         <activeByDefault>true</activeByDefault>
       </activation>
     </profile>
+
+    <profile>
+      <id>chrome</id>
+      <properties>
+		<env>chrome</env>
+        <site.url>http://localhost/</site.url>
+		<browser.name>chrome</browser.name>
+	  </properties>
+    </profile>
+	
+	
     <profile>
       <id>devhost</id>
       <properties>

@@ -37,7 +37,6 @@ public class Remove extends JUnitTestBase {
   }
   @Test
   public void testRemove() {
-	  driver.get(baseUrl + "/php4dvd/");
     driver.findElement(By.cssSelector("img[alt=\"Remove\"]")).click();
 	final String text = "Are you sure you want to remove this?";
 assertTrue(driver.switchTo().alert().getText().equals(text));

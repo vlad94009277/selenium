@@ -20,6 +20,7 @@ public class login extends JUnitTestBase {
 
   @Test
   public void testHomePageHasAHeader() {
+	WebDriver driver = new ChromeDriver();
     driver.get(baseUrl + "/");
     driver.findElement(By.linkText("php4dvd/")).click();
     driver.findElement(By.id("username")).clear();
